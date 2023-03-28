@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #4c5eaf;
+
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+}
+
+.navbarr{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+   background-color:  rgb(210, 227, 244); 
+
+}
+
+.page1 ,.page2 , .page3 {
+    border: 0;
+    position: relative;
+    margin: 20px;
+  background-color:  rgb(217, 227, 237);
+}
+
+.form-control{
+    position: relative;
+    top: 15%;
+    height: 70%;  
+}
+
+#btn1{
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background-color: #fff;
+    height: 70%;
+    top: 15%;
+}
+
+
+#title{
+    /* color: rgb(132, 123, 123); */
+    text-align: center;
+    /* margin-left: 200px; */
+    padding-top:130px;
+    position: relative;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color: #4c5eaf;
+  } 
+
+.coins{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    text-align: center;
+   background-color:  rgb(217, 227, 237); 
+   
+}
+
+.card{
+    width:280px;
+     margin: 40px;
+}
+
+/* -------------------------------- */
+
+.form-check{
+    position: absolute;
+    right: 0;
+    top: 15%; 
+}
+
+.changebtn{
+    position: fixed;
+    z-index: 989;
+    height: auto;
+    margin: 50px;
+  background-color:  rgb(217, 227, 237); 
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+    padding: 20px;
+}
+.canc{
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+}
+
+.FiveCoins{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
